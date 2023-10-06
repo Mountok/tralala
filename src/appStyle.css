@@ -1,0 +1,70 @@
+.header{
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+    letter-spacing: 1px;
+    color: white;
+}
+.file_upload{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.file_upload input{
+    margin-bottom: 20px;
+    color: white;
+}
+.file_upload button{
+    outline: none;
+    border: none;
+    background: black;
+    border: 3px solid darkgreen;
+    color: white;
+}
+.item{
+    color: white;
+    font-family: monospace;
+
+}
+.item span{
+    color: darkgreen;
+    font-weight: bold;
+}
+.item_block{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid green;
+    width: 100%;
+}
+.item_block p:nth-child(1){
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.search{
+    padding: 5px;
+}
+.search input{
+    width: 100%;
+    border: none;
+    border: 1px solid darkgreen;
+    background: none;
+    border-radius: 5px;
+    color: green;
+    font-family: monospace;
+    outline: none;
+    padding: 10px;
+}
+.search input::placeholder{
+    color: rgb(0, 59, 0);
+    font-family: monospace;
+}
+
+.output{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
